@@ -1,0 +1,12 @@
+service: random-number-generate
+
+provider:
+  name: aws
+  runtime: java8
+
+package:
+  artifact: build/distributions/hello.zip
+
+functions:
+  hello:
+    handler: com.serverless.Handler
