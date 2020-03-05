@@ -1,0 +1,23 @@
+# Default ignored files
+/.idea/
+
+*.class
+.gradle
+/build/
+/bin/
+/.settings/
+.project
+.classpath
+target
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Serverless directories
+.serverless
+
+# Gradle
+.gradle/
+build/
