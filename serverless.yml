@@ -5,8 +5,12 @@ provider:
   runtime: java8
 
 package:
-  artifact: build/distributions/hello.zip
+  artifact: build/distributions/hello2.zip
 
 functions:
-  hello:
+  hello2:
     handler: com.serverless.Handler
+    events:
+      - http:
+          path: ping
+          method: get
